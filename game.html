@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <script src="assets/js/scripts.js" async></script>
+    <title>World of Rugby</title>
+</head>
+<body>
+    <h1 class="page-title">World of Rugby</h1>
+    <div class="overlay-text visible">
+        <h2>Click to Start</h2>
+    </div>
+    <div id="game-over-text" class="overlay-text">
+        <h2>Game Over</h2>
+        <span class="overlay-text-small">Click to Restart</span>
+    </div>
+    <div id="victory-text" class="overlay-text">
+        <h2>Victory</h2>
+        <span class="overlay-text-small">Click to Restart</span>
+    </div>
+    <div class="game-container">
+        <div class="game-info-container">
+            <div class="game-info">
+                <h3>Time:<span id="time-remaining">100</span></h3>
+            </div>
+            <div class="game-info">
+                <h3>Flips:<span id="flips">0</span></h3>
+            </div>
+        </div>
+        <div class="card" data-framework="england">
+            <div class="card-back card-face">
+                <img src="assets/images/rugby-cup.jpg" class="card-image">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-image card-value" src="assets/images/england-logo.jpg">
+            </div>
+        </div>
+        <div class="card" data-framework="england">
+            <div class="card-back card-face">
+                <img src="assets/images/rugby-cup.jpg" class="card-image">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-image card-value" src="assets/images/england-logo.jpg">
+            </div>
+        </div>
+        <div class="card" data-framework="scotland">
+            <div class="card-back card-face">
+                <img src="assets/images/rugby-cup.jpg" class="card-image">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-image card-value" src="assets/images/scotland-logo.jpg">
+            </div>
+        </div>
+        <div class="card" data-framework="scotland">
+            <div class="card-back card-face">
+                <img src="assets/images/rugby-cup.jpg" class="card-image">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-image card-value" src="assets/images/scotland-logo.jpg">
+            </div>
+        </div>
+        <div class="card" data-framework="argentina">
+            <div class="card-back card-face">
+                <img src="assets/images/rugby-cup.jpg" class="card-image">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-image card-value" src="assets/images/argentina-logo.jpg">
+            </div>
+        </div>
+        <div class="card" data-framework="argentina">
+            <div class="card-back card-face">
+                <img src="assets/images/rugby-cup.jpg" class="card-image">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-image card-value" src="assets/images/argentina-logo.jpg">
+            </div>
+        </div>
+        <div class="card" data-framework="australia">
+            <div class="card-back card-face">
+                <img src="assets/images/rugby-cup.jpg" class="card-image">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-image card-value" src="assets/images/australia-logo.jpg">
+            </div>
+        </div>
+        <div class="card" data-framework="australia">
+            <div class="card-back card-face">
+                <img src="assets/images/rugby-cup.jpg" class="card-image">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-image card-value" src="assets/images/australia-logo.jpg">
+            </div>
+        </div>
+        <div class="card" data-framework="france">
+            <div class="card-back card-face">
+                <img src="assets/images/rugby-cup.jpg" class="card-image">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-image card-value" src="assets/images/france-logo.png">
+            </div>
+        </div>
+        <div class="card" data-framework="france">
+            <div class="card-back card-face">
+                <img src="assets/images/rugby-cup.jpg" class="card-image">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-image card-value" src="assets/images/france-logo.png">
+            </div>
+        </div>
+        <div class="card" data-framework="japan">
+            <div class="card-back card-face">
+                <img src="assets/images/rugby-cup.jpg" class="card-image">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-image card-value" src="assets/images/japan-logo.png">
+            </div>
+        </div>
+        <div class="card" data-framework="japan">
+            <div class="card-back card-face">
+                <img src="assets/images/rugby-cup.jpg" class="card-image">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-image card-value" src="assets/images/japan-logo.png">
+            </div>
+        </div>
+        <div class="card" data-framework="nz">
+            <div class="card-back card-face">
+                <img src="assets/images/rugby-cup.jpg" class="card-image">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-image card-value" src="assets/images/nz-logo.jpg">
+            </div>
+        </div>
+        <div class="card" data-framework="nz">
+            <div class="card-back card-face">
+                <img src="assets/images/rugby-cup.jpg" class="card-image">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-image card-value" src="assets/images/nz-logo.jpg">
+            </div>
+        </div>
+        <div class="card" data-framework="wales">
+            <div class="card-back card-face">
+                <img src="assets/images/rugby-cup.jpg" class="card-image">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-image card-value" src="assets/images/wales-logo.jpg">
+            </div>
+        </div>
+        <div class="card" data-framework="wales">
+            <div class="card-back card-face">
+                <img src="assets/images/rugby-cup.jpg" class="card-image">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-image card-value" src="assets/images/wales-logo.jpg">
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</body>
+</html>
